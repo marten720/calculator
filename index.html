@@ -13,33 +13,33 @@
     <body>
         <div id="container">
             <div class="screen">
-                <div class="last">123</div>
-                <div class="curr">456</div>
+                <div class="last"></div>
+                <div class="curr">0</div>
             </div>
             
-            <button type="button" class="clear">AC</button>
-            <button type="button" class="double delete">DELETE</button>
-            <button type="button" class="power">^</button>
+            <button type="button" class="clear" onclick="allClear()">AC</button>
+            <button type="button" class="double delete" onclick="del()">DELETE</button>
+            <button type="button" class="power" onclick="power()">^</button>
             
-            <button type="button" class="operand">7</button>
-            <button type="button" class="operand">8</button>
-            <button type="button" class="operand">9</button>
-            <button type="button" class="operator">÷</button>
+            <button type="button" class="operand" onclick="add('7')">7</button>
+            <button type="button" class="operand" onclick="add('8')">8</button>
+            <button type="button" class="operand" onclick="add('9')">9</button>
+            <button type="button" class="operator" onclick="divide()">÷</button>
             
-            <button type="button" class="operand">4</button>
-            <button type="button" class="operand">5</button>
-            <button type="button" class="operand">6</button>
-            <button type="button" class="operator">X</button>
+            <button type="button" class="operand" onclick="add('4')">4</button>
+            <button type="button" class="operand" onclick="add('5')">5</button>
+            <button type="button" class="operand" onclick="add('6')">6</button>
+            <button type="button" class="operator" onclick="multiply()">X</button>
             
-            <button type="button" class="operand">1</button>
-            <button type="button" class="operand">2</button>
-            <button type="button" class="operand">3</button>
-            <button type="button" class="operator">-</button>
+            <button type="button" class="operand" onclick="add('1')">1</button>
+            <button type="button" class="operand" onclick="add('2')">2</button>
+            <button type="button" class="operand" onclick="add('3')">3</button>
+            <button type="button" class="operator" onclick="subtract()">-</button>
             
-            <button type="button" class="operand">0</button>
+            <button type="button" class="operand" onclick="add('0')">0</button>
             <button type="button" class="decimal">.</button>
-            <button type="button" class="equals">=</button>
-            <button type="button" class="operator">+</button>
+            <button type="button" class="equals" onclick="calculate()">=</button>
+            <button type="button" class="operator" onclick="sum()">+</button>
 
         </div>
 

@@ -27,7 +27,7 @@ body {
 }
 
 #container {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(75, 75, 75);
     border: 2px black solid;
     border-radius: 10px;
     width: 400px;
@@ -90,10 +90,12 @@ body {
 
 .last {
     font-size: 1rem;
+    min-height: 1rem;
 }
 
 .curr {
     font-size: 3.5rem;
+    min-height: 3.5rem;
 }
 
 .clear {
