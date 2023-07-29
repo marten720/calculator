@@ -27,7 +27,7 @@ body {
 }
 
 #container {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(61, 61, 61);
     border: 2px black solid;
     border-radius: 10px;
     width: 400px;
@@ -86,16 +86,19 @@ body {
     padding: 10px 20px;
     word-wrap: break-word;
     word-break: break-all;
+    gap: 8px;
 }
 
 .last {
     font-size: 1rem;
     min-height: 1rem;
+    word-spacing: 5px;
 }
 
 .curr {
     font-size: 3.5rem;
     min-height: 3.5rem;
+    padding-top: 10px;
 }
 
 .clear {
